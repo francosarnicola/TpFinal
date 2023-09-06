@@ -1,0 +1,29 @@
+.peliculaspopulares{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.seriespopulares{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lomasvistoenpeliculas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
