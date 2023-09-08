@@ -1,0 +1,24 @@
+form{
+    text-align: right;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    color: white;
+}
