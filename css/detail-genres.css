@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    color: white;
+}
+
+form{
+    text-align: right;
+}
+
+.logo{
+    color: aliceblue;
+}
+
+img{
+    border: rgba(121, 166, 156, 0.765) solid;
+}
+
+input[type="text"]{
+    border:  rgba(121, 166, 156, 0.765) solid;
+    font-size: 20px;
+}
+
+.Buscador{
+    border:  rgba(121, 166, 156, 0.765) solid;
+    font-size: 20px;
+}
