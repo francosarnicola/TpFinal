@@ -26,3 +26,18 @@ form{
 .logo{
     color: aliceblue;
 }
+
+img{
+    border: rgba(121, 166, 156, 0.765) solid;
+}
+
+input[type="text"]{
+    border:  rgba(121, 166, 156, 0.765) solid;
+    font-size: 20px;
+}
+
+.buscador{
+    border:  rgba(121, 166, 156, 0.765) solid;
+    font-size: 20px;
+}
+    
