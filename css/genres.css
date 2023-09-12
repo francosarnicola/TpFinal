@@ -43,7 +43,7 @@ article{
     width: 100px;
 }
 
-section{
+.chico{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -53,5 +53,10 @@ section{
 .grande{
     display: flex;
     flex-direction: row;
+    margin-left: 20%;
+}
+
+footer{
+    margin-top: 300px;
 }
 
