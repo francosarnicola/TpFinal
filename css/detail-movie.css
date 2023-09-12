@@ -1,44 +1,48 @@
-body {
-    background-color: black;
-}
+@media {
 
-p {
-    color: white;
-}
 
-h1 {
-    color: white;
-}
 
-a {
-    color: white;
-    text-decoration: none;
-}
+     body {
+        background-color: black;
+    }
 
-footer {
-    color: white;
-}
+     p {
+        color: white;
+    }
 
-form{
-    text-align: right;
-}
+     h1 {
+        color: white;
+    }
 
-.logo{
-    color: aliceblue;
-}
+     a {
+        color: white;
+        text-decoration: none;
+    }
 
-img{
-    border: rgba(121, 166, 156, 0.765) solid;
-}
+     footer {
+        color: white;
+    }
 
-input[type="text"]{
-    border:  rgba(121, 166, 156, 0.765) solid;
-    font-size: 20px;
-}
+     form{
+        text-align: right;
+    }
 
-.Buscador{
-    border:  rgba(121, 166, 156, 0.765) solid;
-    font-size: 20px;
-}
-    
-    
+        .logo{
+        color: aliceblue;
+    }
+
+        img{
+        border: rgba(121, 166, 156, 0.765) solid;
+    }
+
+     input[type="text"]{
+        border:  rgba(121, 166, 156, 0.765) solid;
+        font-size: 20px;
+    }
+
+     .Buscador{
+        border:  rgba(121, 166, 156, 0.765) solid;
+        font-size: 20px;
+    }
+    }
+        
