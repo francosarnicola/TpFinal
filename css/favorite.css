@@ -4,10 +4,12 @@ body {
 
 h1 {
     color: white;
+    font-size: 18px;
 }
 
 h2{
     color: white;
+    font-size: 15px;
 }
 
 
@@ -45,11 +47,16 @@ input[type="text"]{
     font-size: 20px;
 }
 
+img{
+    border: rgba(121, 166, 156, 0.765) solid;
+}
+
 @media (max-width: 390px) {
         .favoritos{
             justify-content: center;
             align-items: center;
         }
 }
+
     
 
