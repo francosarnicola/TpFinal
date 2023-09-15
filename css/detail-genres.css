@@ -60,6 +60,11 @@ input[type="text"]{
     font-size: 22px;
 }
 
+.integrantes{
+    margin-top: 40px;
+}
+
+
 @media (max-width: 390px){
     .Detallegeneros{
         justify-content: center;

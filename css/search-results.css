@@ -56,6 +56,10 @@ article{
     margin-top: 20px;
 }
 
+.integrantes{
+    margin-top: 40px;
+}
+
 @media (max-width: 390px){
     .indice{
         margin-top: 20px;

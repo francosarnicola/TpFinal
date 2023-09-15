@@ -66,6 +66,9 @@ input[type="text"]{
     font-size: 20px;
 }
 
+.integrantes{
+    margin-top: 20px;
+}
 
 @media (max-width: 390px) {
     .peliculaspopulares {
