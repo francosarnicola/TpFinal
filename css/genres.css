@@ -85,6 +85,11 @@ footer{
     margin-left: 125px; 
 }
 
+.indice{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 @media (max-width: 390px){
     .indice{
         margin-top: 20px;
