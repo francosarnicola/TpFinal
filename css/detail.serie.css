@@ -57,4 +57,23 @@ input[type="text"]{
     .integrantes{
         margin-top: 20px;
     }
+    header a {
+        font-size: 25px;
+    }
+    .indice{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width: 620px){
+    .indice{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+    }
 }
