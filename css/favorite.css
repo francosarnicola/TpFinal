@@ -45,5 +45,11 @@ input[type="text"]{
     font-size: 20px;
 }
 
+@media (max-width: 390px) {
+        .favoritos{
+            justify-content: center;
+            align-items: center;
+        }
+}
     
 

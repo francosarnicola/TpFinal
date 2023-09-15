@@ -56,4 +56,16 @@ article{
     flex-wrap: wrap
 }
 
+.textodetail {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 22px;
+}
+
+@media (max-width: 390px){
+    .Detallegeneros{
+        justify-content: center;
+        align-items: center;
+    }
+}
 
