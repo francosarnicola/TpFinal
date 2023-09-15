@@ -46,6 +46,10 @@ input[type="text"]{
     flex-wrap: wrap;
 }
 
+.integrantes{
+    margin-top: 20px;
+}
+
 @media (max-width: 390px){
     .indice{
         margin-top: 20px;
