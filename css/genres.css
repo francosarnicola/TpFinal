@@ -54,6 +54,7 @@ article{
     display: flex;
     flex-direction: row;
     margin-left: 20%;
+    flex-wrap: wrap;
 }
 
 footer{
