@@ -61,4 +61,20 @@ article{
     .indice{
         margin-top: 20px;
     }
+    .ted{
+        margin-bottom: 20px;
+    }
+    .mesi{
+        margin-bottom: 20px;
+    }
+    .jobs{
+        margin-bottom: 20px;
+    }
+    .search{
+        justify-content: center;
+        align-items: center;
+    }
+    .integrantes{
+        margin-top: 20px;
+    }
 }
