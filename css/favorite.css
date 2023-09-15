@@ -50,6 +50,9 @@ input[type="text"]{
             justify-content: center;
             align-items: center;
         }
+        .indice{
+            margin-top: 20px;
+        }
 }
     
 

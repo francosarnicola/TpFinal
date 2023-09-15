@@ -56,3 +56,9 @@ article{
     display: flex;
     flex-wrap: wrap;
 }
+
+@media (max-width: 390px){
+    .indice{
+        margin-top: 20px;
+    }
+}
