@@ -80,4 +80,52 @@ input[type="text"]{
         justify-content: center;
         align-items: center;
     }
+    .mib3{
+        margin-bottom: 20px;
+    }
+    .ted{
+        margin-bottom: 20px;
+    }
+    .bck{
+        margin-bottom: 20px;
+    }
+    .jobs{
+        margin-bottom: 20px;
+    }
+    .mi{
+        margin-bottom: 20px;
+    }
+    .suts{
+        margin-bottom: 20px;
+    }
+    .mesi{
+        margin-bottom: 20px;
+    }
+    .bad{
+        margin-bottom: 20px;
+    }
+    .ozarc{
+        margin-bottom: 20px;
+    }
+    .agente{
+        margin-bottom: 20px;
+    }
+    .lobo{
+        margin-bottom: 20px;
+    }
+    .codigo{
+        margin-bottom: 20px;
+    }
+    .juegos{
+        margin-bottom: 20px;
+    }
+    .pasa{
+        margin-bottom: 20px;
+    }
+    .stone{
+        margin-bottom: 20px;
+    }
+    .indice{
+        margin-top: 20px;
+    }
 }
