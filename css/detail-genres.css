@@ -45,9 +45,7 @@ input[type="text"]{
     font-size: 20px;
 }
 
-article{
-    border: rgba(121, 166, 156, 0.765) solid;
-}
+
 
 .Detallegeneros{
     display: flex;
