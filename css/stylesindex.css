@@ -129,3 +129,30 @@ input[type="text"]{
         margin-top: 20px;
     }
 }
+
+@media (max-width: 820px) {
+    .peliculaspopulares{
+        justify-content: center;
+    }
+    .seriespopulares{
+        justify-content: center;
+    }
+    .lomasvistoenpeliculas{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1050px) {
+    .peliculaspopulares {
+        justify-content: center;
+        gap: 20px;
+    }
+    .seriespopulares {
+        justify-content: center;
+        gap: 20px;
+    }
+    .lomasvistoenpeliculas {
+        justify-content: center;
+        gap: 20px;
+    }
+}

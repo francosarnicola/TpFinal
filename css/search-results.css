@@ -41,13 +41,6 @@ h2{
     color: white;
 }
 
-section{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
 article{
     border: rgba(121, 166, 156, 0.765) solid;
 }
@@ -55,6 +48,12 @@ article{
 .search {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.integrantes{
+    margin-top: 20px;
 }
 
 @media (max-width: 390px){
