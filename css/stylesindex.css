@@ -26,6 +26,8 @@ body{
 h1{
     color: white;
     font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 h2{
