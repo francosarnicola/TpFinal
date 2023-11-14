@@ -39,7 +39,7 @@ fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${apikey}`)
         for (let i = 0; i < data.results.length; i++) {
             contenedorseries.innerHTML += `
             <article>
-            <a href="./detail-movie.html">
+            <a href="./detail-serie.html">
             <img src="https://image.tmdb.org/t/p/w500${data.results[i].poster_path}" height="300px" width="200px" />
             <h1>
             ${data.results[i].title}
