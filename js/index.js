@@ -1,5 +1,9 @@
 let apikey = "c5954851f3946cd861a8968314472164"
-let contenedorpopulares = document.querySelector(".peliculaspopulares")
+let contenedorpopulares = document.querySelector(".peliculaspopulares");
+contenedorpopulares.style.fontSize = "15px"
+contenedorpopulares.style.displayFlex
+contenedorpopulares.style.justifyContent = "spaceBetween"
+contenedorpopulares.style.flexWrap = "wrap"
 let contenedorseries = document.querySelector(".seriespopulares")
 fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${apikey}`)
     .then(function(response){
