@@ -6,12 +6,11 @@ fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${apikey}`)
     })
     .then(function(data){
         console.log(data)
-        for (let i = 0; i < data.results.length; i++){
-            generospeliculas.innerHTML += `
-            
+        for (let i = 0; i < data.results.length; i++) {
+            contenedorpopulares.innerHTML += `
             `
         }
-    })
+    })     
     .catch(function(error){
-        console.log("El error es: " + error)
+        console.log('El error es:' + error);
     })
