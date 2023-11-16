@@ -8,7 +8,10 @@ fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${apikey}`)
         console.log(data)
         for (let i = 0; i < data.results.length; i++) {
             contenedorpeliculas.innerHTML += `
-            `
+            <article>
+            < href="./detail-genres.html?id=${data.results[i].id}"}
+            </article>`
+            
         }
     })     
     .catch(function(error){
