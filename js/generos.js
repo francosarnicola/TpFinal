@@ -7,7 +7,7 @@ fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${apikey}`)
     .then(function(data){
         console.log(data)
         for (let i = 0; i < data.results.length; i++) {
-            contenedorpopulares.innerHTML += `
+            contenedorpeliculas.innerHTML += `
             `
         }
     })     
