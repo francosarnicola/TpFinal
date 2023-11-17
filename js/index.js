@@ -16,9 +16,7 @@ fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${apikey}`)
             <article>
             <a href="./detail-movie.html?id=${data.results[i].id}">
             <img src="https://image.tmdb.org/t/p/w500${data.results[i].poster_path}" height="300px" width="200px" />
-            <h1>
-            ${data.results[i].title}
-            </h1>
+            <h1>"${data.results[i].title}"</h1>
             </a>
             <h2>
             ${data.results[i].release_date}
