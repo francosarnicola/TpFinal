@@ -3,24 +3,27 @@ let a = ""
 let contenedor = document.querySelector(".search")
 let queryString = location.search
 let queryStringObj = new URLSearchParams(queryString)
-let b = queryStringObj.get("Buscador");
-let buscador = document.querySelector("busqueda")
+let busqueda = queryStringObj.get('q')
 
-fetch(`https://api.themoviedb.org/3/search/multiapi_key=${apikey}`)
+
+fetch(`https://api.themoviedb.org/3/search/multi?query=${busqueda}&api_key=${apikey}`)
     .then(function(response){
-        return response.json
+        return response.json()
     })
     .then(function(data){
         console.log(data)
         if (data.results.length === 0){
-            buscador.innerHTML = "no hay resultado para su búsqueda"
+            contenedor.innerHTML = "NO HAY RESULTADO PARA SU BUSQUEDA" 
         } else{
             contenedor.textContent = `Resultados de búsqueda para: ${a}`;
-            for(let i = 0; i < 5; i++){
-                buscador.innerHTML += `
+            for(let i = 0; i < 3; i++){
+                contenedor.innerHTML += `
                 <a href="./detail-movie.html?id=${data.results[i].id}">
-                <img src="https://image.tmdb.org/t/p/w500${data.results[i].poster_path}
+                <img src="https://image.tmdb.org/t/p/w500${data.results[i].poster_path}" height="300px" width="200px">
                 </a>
+                <h1>
+                ${data.results[i].overview}
+                </h1>
                 `
             }
         }
