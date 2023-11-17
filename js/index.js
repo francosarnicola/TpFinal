@@ -50,7 +50,7 @@ fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${apikey}`)
             </h1>
             </a>
             <h2>
-            ${data.results[i].release_date}
+            ${data.results[i].first_air_date}
             </h2>
             <a href="./favorite.html">
             <h3>Agregar a favoritos</h3>
