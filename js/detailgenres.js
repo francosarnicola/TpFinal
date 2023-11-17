@@ -10,10 +10,12 @@ fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${apikey}&with_genres
     })
     .then(function(data){
         console.log(data)
-        o.innerHTML +=`
-        <h1>("name)</h1>
-        
-        `
+        for(let i = 0; i < 3; i++){
+            o.innerHTML +=`
+            <h1>("name)</h1>
+            `
+        }
+       
     })
     .catch(function(error){
         console.log("El error es: " + error)
